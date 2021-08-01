@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity()
         }
 
         binding.btncall.setOnClickListener{
-            var intent = Intent(Intent.ACTION_VIEW, Uri.parse("tel:/01053690484"))
+            var intent = Intent(Intent.ACTION_VIEW, Uri.parse("tel:/0100000000"))
             startActivity(intent)
         }
 
